@@ -10,10 +10,10 @@
                     <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                     <!-- RD Navbar Brand-->
                     <div class="rd-navbar-brand veil reveal-md-block">
-                        <a href="index.html" class="brand-name"><img style='margin-top: -10px;' width='164' height='29' src='/anl/images/logo-164x29.png' alt='' /></a>
+                        <a href="/" class="brand-name"><img style='margin-top: -10px;' width='164' height='29' src='{{asset('storage/'.Voyager::setting('logo'))}}' alt='' /></a>
                     </div>
                     <div class="rd-navbar-brand veil-md reveal-tablet-md-inline-block">
-                        <a href="index.html" class="brand-name"><img style='margin-top: -7px;' width='128' height='24' src='/anl/images/logo-128x24.png' alt='' /></a>
+                        <a href="/" class="brand-name"><img style='margin-top: -7px;' width='128' height='24' src='{{asset('storage/'.Voyager::setting('logo'))}}' alt='' /></a>
                     </div>
                     <!-- RD Navbar Toggle-->
                     <button data-rd-navbar-toggle=".rd-navbar-collapse-wrap" class="rd-navbar-collapse"><span></span></button>
@@ -40,9 +40,9 @@
                                     <li><a href="">航海文化</a></li>
                                 </ul>
                             </li>
-                            <li><a href="">全球联盟</a></li>
-                            <li><a href="yachts.html">联盟体系内容</a>
+                            <li><a href="">全球联盟</a>
                                 <ul class="rd-navbar-dropdown">
+                                    <li><a href="yachts-grid.html">联盟体系内容</a></li>
                                     <li><a href="yachts-grid.html">星海联盟体系</a></li>
                                     <li><a href="yachts.html">入会资格</a></li>
                                     <li><a href="cart.html">邀请函</a></li>

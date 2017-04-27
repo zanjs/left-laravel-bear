@@ -3,11 +3,11 @@
         <div class="cell-sm-6">
             <!-- Post Inspiration-->
             <div class="post-inspiration post-inspiration-img-auto-height">
-                <div class="post-inspiration-img-wrap"><img src="/anl/images/products/product-10-962x491.jpg" width="962" height="491" alt=""></div>
+                <div class="post-inspiration-img-wrap"><img src="{{asset('anl')}}/images/products/product-10-962x491.jpg" width="962" height="491" alt=""></div>
                 <div class="post-inspiration-body">
-                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="/anl/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
+                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="{{asset('anl')}}/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
                     <div class="veil reveal-sm-inline-block"><span class="icon icon-lg thin-ico thin-icon-anchor text-white"></span></div>
-                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="/anl/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
+                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="{{asset('anl')}}/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
                     <div class="offset-top-20">
                         <h5>oceanis 60</h5>
                     </div>
@@ -21,11 +21,11 @@
         <div class="cell-sm-6">
             <!-- Post Inspiration-->
             <div class="post-inspiration post-inspiration-img-auto-height">
-                <div class="post-inspiration-img-wrap"><img src="/anl/images/products/product-11-962x491.jpg" width="962" height="491" alt=""></div>
+                <div class="post-inspiration-img-wrap"><img src="{{asset('anl')}}/images/products/product-11-962x491.jpg" width="962" height="491" alt=""></div>
                 <div class="post-inspiration-body">
-                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="/anl/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
+                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="{{asset('anl')}}/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
                     <div class="veil reveal-sm-inline-block"><span class="icon icon-lg thin-ico thin-icon-anchor text-white"></span></div>
-                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="/anl/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
+                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="{{asset('anl')}}/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
                     <div class="offset-top-20">
                         <h5>Fareast 18</h5>
                     </div>
@@ -39,11 +39,11 @@
         <div class="cell-sm-6">
             <!-- Post Inspiration-->
             <div class="post-inspiration post-inspiration-img-auto-height">
-                <div class="post-inspiration-img-wrap"><img src="/anl/images/products/product-12-962x491.jpg" width="962" height="491" alt=""></div>
+                <div class="post-inspiration-img-wrap"><img src="{{asset('anl')}}/images/products/product-12-962x491.jpg" width="962" height="491" alt=""></div>
                 <div class="post-inspiration-body">
-                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="/anl/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
+                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="{{asset('anl')}}/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
                     <div class="veil reveal-sm-inline-block"><span class="icon icon-lg thin-ico thin-icon-anchor text-white"></span></div>
-                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="/anl/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
+                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="{{asset('anl')}}/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
                     <div class="offset-top-20">
                         <h5>first 25</h5>
                     </div>
@@ -57,11 +57,11 @@
         <div class="cell-sm-6">
             <!-- Post Inspiration-->
             <div class="post-inspiration post-inspiration-img-auto-height">
-                <div class="post-inspiration-img-wrap"><img src="/anl/images/products/product-13-962x491.jpg" width="962" height="491" alt=""></div>
+                <div class="post-inspiration-img-wrap"><img src="{{asset('anl')}}/images/products/product-13-962x491.jpg" width="962" height="491" alt=""></div>
                 <div class="post-inspiration-body">
-                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="/anl/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
+                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="{{asset('anl')}}/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
                     <div class="veil reveal-sm-inline-block"><span class="icon icon-lg thin-ico thin-icon-anchor text-white"></span></div>
-                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="/anl/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
+                    <div style="margin-bottom: 20px;" class="veil reveal-sm-inline-block text-bottom"><img src="{{asset('anl')}}/images/divider-01-67x4.png" width="67" height="4" alt="" class="img-responsive center-block"></div>
                     <div class="offset-top-20">
                         <h5>sense 50</h5>
                     </div>
