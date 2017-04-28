@@ -18,45 +18,22 @@
                     <!-- RD Navbar Toggle-->
                     <button data-rd-navbar-toggle=".rd-navbar-collapse-wrap" class="rd-navbar-collapse"><span></span></button>
                 </div>
+
                 <div class="rd-navbar-right-side">
                     <div class="rd-navbar-nav-wrap reveal-md-inline-block">
                         <ul class="rd-navbar-nav">
                             <!-- RD Navbar Nav-->
-                            <li class="active"><a href="/">首页</a></li>
-                            <li><a href="about.html">关于我们</a>
-                                <ul class="rd-navbar-dropdown">
-                                    <li><a href="">帆船俱乐部简介</a></li>
-                                    <li><a href="">会员章程</a></li>
-                                    <li><a href="http://www.noahsgroup.com/">诺莱仕集团</a></li>
-                                    <li><a href="">合作伙伴</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="charter.html">咨询中心</a>
-                                <ul class="rd-navbar-dropdown">
-                                    <li><a href="">航海活动</a></li>
-                                    <li><a href="">帆船行业动态</a></li>
-                                    <li><a href="">帆船赛事公告</a></li>
-                                    <li><a href="">俱乐部圈层活动</a></li>
-                                    <li><a href="">航海文化</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="">全球联盟</a>
-                                <ul class="rd-navbar-dropdown">
-                                    <li><a href="yachts-grid.html">联盟体系内容</a></li>
-                                    <li><a href="yachts-grid.html">星海联盟体系</a></li>
-                                    <li><a href="yachts.html">入会资格</a></li>
-                                    <li><a href="cart.html">邀请函</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="blog-classic-left-sidebar.html">会员中心</a>
-                                <ul class="rd-navbar-dropdown">
-                                    <li><a href="blog-classic-left-sidebar.html">至会员</a></li>
-                                    <li><a href="blog-classic-left-sidebar.html">船东银行</a></li>
-                                    <li><a href="blog-classic-left-sidebar.html">理事会员介绍</a></li>
-                                    <li><a href="blog-classic-left-sidebar.html">航海里程数累积</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contacts.html">联系我们</a></li>
+                            {!! Menu::display('main','menu') !!}
+                            {{--<li class="active"><a href="/">首页</a></li>--}}
+                            {{--<li><a href="about.html">关于我们</a>--}}
+                                {{--<ul class="rd-navbar-dropdown">--}}
+                                    {{--<li><a href="">帆船俱乐部简介</a></li>--}}
+                                    {{--<li><a href="">会员章程</a></li>--}}
+                                    {{--<li><a href="http://www.noahsgroup.com/">诺莱仕集团</a></li>--}}
+                                    {{--<li><a href="">合作伙伴</a></li>--}}
+                                {{--</ul>--}}
+                            {{--</li>--}}
+                            {{--<li><a href="contacts.html">联系我们</a></li>--}}
                         </ul>
                     </div>
                 </div>
