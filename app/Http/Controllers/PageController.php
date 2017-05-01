@@ -10,17 +10,15 @@ class PageController extends Controller
 {
     public function index($slug)
     {
-        $page = Page::where('id', $slug)->first();
+//        $page = Page::where('id', $slug)->first();
+        $page = Page::find($slug);
         if(empty($page)) {
             abort(404);
-            return;
         }
         $templateId = $page->template_id;
 
 
         $view = 'page.index';
-
-
 
         if($templateId){
           $template = Template::find($templateId);

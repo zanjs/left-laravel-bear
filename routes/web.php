@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Route::get('page/{slug}', ['as' => 'page', 'uses' => 'PageController@index']);
 
-Route::get('news', ['as' => 'news', 'uses' => 'NewController@index']);
+Route::get('news/{id}', ['as' => 'news', 'uses' => 'NewController@index']);
 Route::get('new/{id}', ['as' => 'new', 'uses' => 'NewController@show']);
 
 
