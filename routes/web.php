@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+
+Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 
 Route::get('page/{slug}', ['as' => 'page', 'uses' => 'PageController@index']);
 

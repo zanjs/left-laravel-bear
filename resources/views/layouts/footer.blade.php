@@ -3,7 +3,7 @@
         <div class="range range-xs-center range-lg-justify">
             <div class="cell-sm-4 cell-md-3">
                 <a href="/">
-                    <img width="164" height="29" src="{{asset('storage/'.Voyager::setting('logo'))}}" alt="">
+                    <img width="164" height="29" src="{{asset('storage/'.Voyager::setting('logo-footer'))}}" alt="">
                 </a>
             </div>
             <div class="cell-sm-5 cell-md-3 cell-md-push-4 offset-top-20 offset-sm-top-0">
@@ -22,19 +22,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="cell-sm-4 cell-md-2 cell-md-push-1 offset-top-44 offset-md-top-0">
-                <div>
-                    <p class="text-uppercase text-bold font-accent text-spacing-50 text-mine-shaft">about</p>
-                </div>
-                <div class="reveal-inline-block offset-top-15 offset-md-top-30">
-                    <ul class="list-marked text-extra-small text-bold p text-left">
-                        <li><a href="testimonials.html" class="text-primary">Why us</a></li>
-                        <li class="offset-top-10"><a href="events.html" class="text-primary">Heritage</a></li>
-                        <li class="offset-top-10"><a href="contacts.html" class="text-primary">Locations</a></li>
-                        <li class="offset-top-10"><a href="team.html" class="text-primary">Our team</a></li>
-                    </ul>
-                </div>
-            </div>
+            {{--footer menu--}}
+            {!! Menu::display('footer','menu.footer') !!}
+            {{--footer menu end--}}
         </div>
         <div class="offset-top-60">
             <div class="hr bg-gray-lighter"></div>

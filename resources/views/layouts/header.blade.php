@@ -23,7 +23,7 @@
                     <div class="rd-navbar-nav-wrap reveal-md-inline-block">
                         <ul class="rd-navbar-nav">
                             <!-- RD Navbar Nav-->
-                            {!! Menu::display('main','menu') !!}
+                            {!! Menu::display('main','menu.menu') !!}
                             {{--<li class="active"><a href="/">首页</a></li>--}}
                             {{--<li><a href="about.html">关于我们</a>--}}
                                 {{--<ul class="rd-navbar-dropdown">--}}
