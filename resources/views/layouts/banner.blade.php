@@ -10,15 +10,25 @@
                 <div class="cell-sm-10 cell-lg-8">
                     <div>
                         <div class="text-extra-big font-accent text-bold text-spacing-inverse-50 text-capitalize text-white">
-                            Explore. Discover. Live
+                            {{Voyager::block('index_banner_title')}}
                         </div>
                     </div>
                     <div class="offset-top-15 offset-md-top-0">
-                        <h5 class="text-spacing-75 text-white">Yachts for sale & charters</h5>
+                        <h5 class="text-spacing-75 text-white">
+                            {{Voyager::block('index_banner_desc')}}
+                        </h5>
                     </div>
                     <div class="btns-both-lines group group-sm offset-top-25">
                         {{--<a href="" style="min-width:205px;" class="btn btn-primary">sailing yachts</a>--}}
-                        <a href="" style="min-width:205px;" class="btn btn-white">yacht charters</a>
+                       <?php
+                            $bannerUrl = Voyager::block('index_banner_url');
+                        ?>
+                        @if($bannerUrl)
+                        <a href="{{$bannerUrl}}"
+                           style="min-width:205px;" class="btn btn-white">
+                            {{Voyager::block('index_banner_url_name')}}
+                        </a>
+                        @endif
                     </div>
                 </div>
             </div>
