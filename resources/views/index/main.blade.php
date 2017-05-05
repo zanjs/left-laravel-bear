@@ -4,7 +4,7 @@
     <!-- Sailing Yachts-->
     @include('index.sailing')
     <!-- Products-->
-    @include('index.products')
+    @include('index.photo')
     <!-- Charter Excellence-->
     @include('index.charter')
     <!-- What Clients Say-->

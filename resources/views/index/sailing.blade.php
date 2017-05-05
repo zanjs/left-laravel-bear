@@ -29,7 +29,9 @@
             </svg>
         </div>
         <div class="offset-top-35">
-            <p class="font-accent text-bold text-uppercase text-spacint-50 text-mine-shaft">Yachts for sale</p>
+            <p class="font-accent text-bold text-uppercase text-spacint-50 text-mine-shaft">
+                {{$photoCategory->name}}
+            </p>
         </div>
     </div>
 </section>
