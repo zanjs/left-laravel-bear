@@ -8,7 +8,7 @@
         <!-- Privacy Policy-->
         <section class="section-75 section-md-top-90 section-md-bottom-103">
             <div class="shell">
-                <h2>{{$page->title}}</h2>
+                <h3>{{$page->title}}</h3>
                 <div class="range range-xs-center offset-top-40">
                     <div class="cell-lg-10">
                         <!-- Accordion-->

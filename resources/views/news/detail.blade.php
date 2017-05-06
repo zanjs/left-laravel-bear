@@ -10,28 +10,16 @@
             <div class="shell">
                 <div class="range range-xs-center">
                     <div class="cell-sm-10 cell-md-12">
-                        <h1 class="text-spacing-inverse-50">South Pacific & Australasia</h1>
+                        <h1 class="text-spacing-inverse-50">{{$new->title}}</h1>
+                        @if($new->image)
                         <div class="offset-top-30 offset-sm-top-50">
-                            <img src="/anl/images/pages/insperation-single-01-1170x570.jpg"
+                            <img src="{{asset('storage/'.$new->image)}}"
                                  width="1170" height="570" alt="" class="img-responsive center-block">
                         </div>
+                        @endif
                         <div class="range range-xs-center offset-top-35 text-left">
-                            <div class="cell-md-6">
-                                <p class="text-spacing-0">
-                                    Imagine the ultimate paradise; you're likely to find it in the South Pacific.
-                                    Reachable from Australia and New Zealand, the South Pacific includes popular islands like Fiji,
-                                    Bora Bora, Tahiti and Samoa as well as more remote stops that are diverse in culture,
-                                    history and languages.
-                                </p>
-                            </div>
-                            <div class="cell-md-6">
-                                <p class="text-spacing-0">
-                                    On a South Pacific yacht charter, you can enjoy
-                                    relaxed beaches and some of the world's best water sports.
-                                    your journey with Yachtec crew will take you to the east of
-                                    Australia from Brisbane to the enchanting islands that dot the
-                                    South Pacific. Learn more about this yacht charter destination below.
-                                </p>
+                            <div class="cell-md-12">
+                                {!! $new->body !!}
                             </div>
                         </div>
                         <div class="offset-top-25">
@@ -42,59 +30,7 @@
                     </div>
                 </div>
                 <div class="range range-xs-center list-index-lg offset-md-top-25">
-                    <div class="cell-sm-10 cell-md-4">
-                        <div class="list-index-counter h2 text-silver-chalice text-spacing-inverse-75"></div>
-                        <div class="offset-top-20">
-                            <h5 class="line-height-36 text-spacing-25">Barefoot Luxury. Exquisite Sailing.</h5>
-                        </div>
-                        <div class="offset-top-20 offset-md-top-30">
-                            <img src="/anl/images/pages/insperation-single-02-370x287.jpg"
-                                 width="370" height="87" alt="" class="img-responsive center-block">
-                        </div>
-                        <div class="offset-top-25 offset-md-top-40">
-                            <p class="text-extra-small text-spacing-0">
-                                While still an unfrequented area for yacht charter,
-                                Australia and the surrounding waters of South Pacific
-                                offer incredible sailing, diving and exploration for those that venture there.
-                                The Whitsundays offer excellent sailing and the Great Barrier Reef is renowned worldwide
-                                for its diving.
-                            </p>
-                        </div>
-                        <div class="offset-top-20">
-                            <h5 class="text-spacing-20 text-silver-chalice">...</h5>
-                        </div>
-                    </div>
-                    <div class="cell-sm-10 cell-md-4 offset-top-64 offset-md-top-0">
-                        <div class="list-index-counter h2 text-silver-chalice text-spacing-inverse-75"></div>
-                        <div class="offset-top-20">
-                            <h5 class="line-height-36 text-spacing-25">
-                                City life or <br class="veil reveal-lg-inline-block"> wild landscapes.
-                            </h5>
-                        </div>
-                        <div class="offset-top-20 offset-md-top-30">
-                            <img src="/anl/images/pages/insperation-single-03-370x287.jpg"
-                                 width="370" height="87" alt="" class="img-responsive center-block">
-                        </div>
-                        <div class="offset-top-25 offset-md-top-40">
-                            <p class="text-extra-small text-spacing-0">Sydney is one of the world’s coolest cities, combining laid-back beach life with world-class shopping and restaurants. Venture to the Blue Mountains for hikes over waterfalls offering vertiginous views. Discover Australia’s extraordinary native wildlife and lots of attractive places to see.</p>
-                        </div>
-                        <div class="offset-top-20">
-                            <h5 class="text-spacing-20 text-silver-chalice">...</h5>
-                        </div>
-                    </div>
-                    <div class="cell-sm-10 cell-md-4 offset-top-64 offset-md-top-0">
-                        <div class="list-index-counter h2 text-silver-chalice text-spacing-inverse-75"></div>
-                        <div class="offset-top-20">
-                            <h5 class="line-height-36 text-spacing-25">sail. hike. climb. <br class="veil reveal-lg-inline-block"> dine. party.</h5>
-                        </div>
-                        <div class="offset-top-20 offset-md-top-30"><img src="/anl/images/pages/insperation-single-04-370x287.jpg" width="370" height="87" alt="" class="img-responsive center-block"></div>
-                        <div class="offset-top-25 offset-md-top-40">
-                            <p class="text-extra-small text-spacing-0">Explore hidden coves, swim in crystal clear waters, and meet people who’ll become friends for life. All you have to do is climb on board and get ready to enjoy one of the most beautiful places you’ll ever see. Australia and South pacific have a lot to offer you this season.</p>
-                        </div>
-                        <div class="offset-top-20">
-                            <h5 class="text-spacing-20 text-silver-chalice">...</h5>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
