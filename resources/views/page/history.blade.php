@@ -14,7 +14,7 @@
 
 
                 <div class="range range-xs-center offset-top-15">
-                    <div class="cell-sm-10 cell-lg-8"><span class="icon material-icons-ico material-icons-format_quote text-alto"></span>
+                    <div class="cell-sm-10"><span class="icon material-icons-ico material-icons-format_quote text-alto"></span>
                         <div class="offset-top-20">
 
                             {!! $page->excerpt !!}

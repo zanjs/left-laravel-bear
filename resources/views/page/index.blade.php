@@ -10,7 +10,7 @@
             <div class="shell">
                 <h3>{{$page->title}}</h3>
                 <div class="range range-xs-center offset-top-40">
-                    <div class="cell-lg-10">
+
                         <!-- Accordion-->
                         <div id="accordion" role="tablist" aria-multiselectable="true" class="bootstrap-accordion-alternative panel-group">
                             <div class="panel">
@@ -23,7 +23,7 @@
                             </div>
 
                         </div>
-                    </div>
+
                 </div>
             </div>
         </section>
