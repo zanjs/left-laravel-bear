@@ -14,7 +14,11 @@
                         <!-- Accordion-->
                         <div id="accordion" role="tablist" aria-multiselectable="true" class="bootstrap-accordion-alternative panel-group">
                             <div class="panel">
+                                <div class="offset-top-20">
 
+                                    {!! $page->excerpt !!}
+
+                                </div>
                                 <div id="collapseOne" role="tabpanel" aria-labelledby="headingOne" class="panel-collapse collapse in">
                                     <div class="text-extra-small text-nobel">
                                         {!! $page->body !!}

@@ -6,7 +6,7 @@
 
     <main class="page-content">
         <!-- Privacy Policy-->
-        <section class="section-75 section-md-top-90 section-md-bottom-103">
+        <section class="section-75 section-md-top-90">
             <div class="shell">
                 <h3>{{$page->title}}</h3>
                 <div class="range range-xs-center offset-top-40">
@@ -27,6 +27,12 @@
                 </div>
             </div>
         </section>
+        <section class="">
+            <div class="shell">
+                <!--百度地图容器-->
+                <div style="width:100%;height:550px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+            </div>
+        </section>
     </main>
-
+    @include('layouts.map')
 @endsection

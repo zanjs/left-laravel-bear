@@ -26,12 +26,12 @@
                                         </p>
                                     </div>
                                     <div class="offset-top-4">
-                                        <h5 class="text-capitalize">{{$new->title}}</h5>
+                                        <p style="font-size: 14px">{{$new->title}}</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="offset-top-20 offset-md-top-40">
-                                <p class="text-spacing-0">
+                                <p class="text-spacing-0" style="font-size: 13px;">
                                     {{$new->description}}
                                 </p>
                             </div>

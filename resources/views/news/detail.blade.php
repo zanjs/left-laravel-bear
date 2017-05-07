@@ -10,7 +10,7 @@
             <div class="shell">
                 <div class="range range-xs-center">
                     <div class="cell-sm-10 cell-md-12">
-                        <h1 class="text-spacing-inverse-50">{{$new->title}}</h1>
+                        <h5 class="text-spacing-inverse-50">{{$new->title}}</h5>
                         @if($new->image)
                         <div class="offset-top-30 offset-sm-top-50">
                             <img src="{{asset('storage/'.$new->image)}}"

@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
 use TCG\Voyager\Models\Page;
 use App\Template;
+use App\Photo;
+use App\PhotoCategory;
 
 class PageController extends Controller
 {
@@ -17,6 +17,8 @@ class PageController extends Controller
         }
         $templateId = $page->template_id;
 
+        $photoCategory = PhotoCategory::find(2);
+        $photos = Photo::where('category_id','2')->orderBy('updated_at', 'desc')->get();
 
         $view = 'page.index';
 
@@ -25,6 +27,6 @@ class PageController extends Controller
           $view = 'page.'.$template->name;
         }
 
-        return view($view, compact('page'));
+        return view($view, compact('page','photoCategory','photos'));
     }
 }

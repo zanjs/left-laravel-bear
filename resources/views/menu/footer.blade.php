@@ -10,7 +10,7 @@
             @foreach($menu_item->children as $key=>$child)
                 @if ($key == 0)
                 <li>
-                    <a href="{{$child->url}}" class="text-primary">
+                    <a target="{{$child->target}}" href="{{$child->url}}" class="text-primary">
                         {{$child->title}}
                     </a>
                 </li>

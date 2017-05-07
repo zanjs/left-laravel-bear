@@ -8,18 +8,14 @@
             </div>
             <div class="cell-sm-5 cell-md-3 cell-md-push-4 offset-top-20 offset-sm-top-0">
                 <ul class="list-inline list-inline-0 list-calypso">
+                    @foreach($socials as $social)
                     <li class="text-center">
-                        <a href="#" class="icon icon-xxs fa fa-facebook text-turquoise"></a>
+                        <a href="{{$social->url}}"
+                           target="{{$social->target}}"
+                           class="icon icon-xxs fa {{$social->icon_class}} text-turquoise"
+                           title="{{$social->title}}"></a>
                     </li>
-                    <li class="text-center">
-                        <a href="#" class="icon icon-xxs fa fa-google-plus text-turquoise"></a>
-                    </li>
-                    <li class="text-center">
-                        <a href="#" class="icon icon-xxs fa fa-linkedin text-turquoise"></a>
-                    </li>
-                    <li class="text-center">
-                        <a href="#" class="icon icon-xxs fa fa-twitter text-turquoise"></a>
-                    </li>
+                    @endforeach
                 </ul>
             </div>
             {{--footer menu--}}
