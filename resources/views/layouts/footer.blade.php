@@ -3,7 +3,7 @@
         <div class="range range-xs-center range-lg-justify">
             <div class="cell-sm-4 cell-md-3">
                 <a href="/">
-                    <img width="164" height="29" src="{{asset('storage/'.Voyager::setting('logo-footer'))}}" alt="">
+                    <img width='{{Voyager::setting('logo_width')}}' height='{{Voyager::setting('logo_height')}}' src="{{asset('storage/'.Voyager::setting('logo-footer'))}}" alt="">
                 </a>
             </div>
             <div class="cell-sm-5 cell-md-3 cell-md-push-4 offset-top-20 offset-sm-top-0">

@@ -10,7 +10,7 @@
                     <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                     <!-- RD Navbar Brand-->
                     <div class="rd-navbar-brand veil reveal-md-block">
-                        <a href="/" class="brand-name"><img style='margin-top: -10px;' width='164' height='29' src='{{asset('storage/'.Voyager::setting('logo'))}}' alt='' /></a>
+                        <a href="/" class="brand-name"><img style='margin-top: -10px;' width='{{Voyager::setting('logo_width')}}' height='{{Voyager::setting('logo_height')}}' src='{{asset('storage/'.Voyager::setting('logo'))}}' alt='' /></a>
                     </div>
                     <div class="rd-navbar-brand veil-md reveal-tablet-md-inline-block">
                         <a href="/" class="brand-name"><img style='margin-top: -7px;' width='128' height='24' src='{{asset('storage/'.Voyager::setting('logo'))}}' alt='' /></a>
