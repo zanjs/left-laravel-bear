@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="wide wow-animation">
+<html lang="en" class="wide wow-animation smoothscroll scrollTo">
 <head>
     <title>@yield('title') {{ Voyager::setting('title') }}</title>
     <meta name="format-detection" content="telephone=no">
@@ -18,8 +18,8 @@
     @include('layouts.footer')
 </div>
 
-<script src="/anl/js/core.min.js"></script>
-<script src="/anl/js/script.js"></script>
+<script src="/anl/js/core.min.js?2017"></script>
+<script src="/anl/js/script.js?2017"></script>
 @yield('footer')
 </body>
 </html>

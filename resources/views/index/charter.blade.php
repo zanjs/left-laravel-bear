@@ -8,7 +8,7 @@
                 </p>
             </div>
         </div>
-        <div class="range range-xs-center offset-top-35 offset-lg-top-75">
+        <div class="max-img range range-xs-center offset-top-35 offset-lg-top-75">
             {!! $pageFour->body !!}
         </div>
         {{--<div class="btn-both-lines btn-both-lines-gray-lighter offset-top-40 offset-lg-top-70">--}}

@@ -1,4 +1,4 @@
-<section id="sec" class="section-75 section-md-top-60 section-md-bottom-60">
+<section id="sec" class="section-75 section-md-top-60 section-md-bottom-60 max-img">
     <div class="shell">
         <div>
             <h1 class="text-spacing-inverse-50">

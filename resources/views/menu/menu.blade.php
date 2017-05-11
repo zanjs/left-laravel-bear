@@ -1,5 +1,7 @@
 @foreach($items as $menu_item)
-    <li><a target="{{$menu_item->target}}" href="@if(empty($menu_item->url))# @else {{$menu_item->url }}@endif">{{ $menu_item->title }}</a>
+    <!-- muen-->
+    <li>
+        <a target="{{$menu_item->target}}" href="@if(empty($menu_item->url)) @else {{$menu_item->url }}@endif">{{ $menu_item->title }}</a>
     @if(count($menu_item->children) > 0)
         <ul class="rd-navbar-dropdown">
             @foreach($menu_item->children as $child)
@@ -8,4 +10,5 @@
         </ul>
     @endif
     </li>
+    <!-- muen end-->
 @endforeach

@@ -206,7 +206,9 @@ figure {
 hr {
   box-sizing: content-box;
   height: 0; }
-
+.max-img img{
+  max-width: 100%;
+}
 pre {
   overflow: auto; }
 
