@@ -6,7 +6,7 @@
 
     <main class="page-content">
         <!-- History-->
-        <section class="section-75 section-md-top-90 section-md-bottom-95">
+        <section class="section-75 section-md-top-115 section-md-bottom-95">
             <div class="shell">
                 <div>
                     <h3>{{$page->title}}</h3>
