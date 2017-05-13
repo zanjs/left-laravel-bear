@@ -1,5 +1,5 @@
 <link rel="icon" href="{{ asset('storage/'.Voyager::setting('icon')) }}" type="image/x-icon">
-<link rel="stylesheet" href="/anl/css/style.css?v201722">
+<link rel="stylesheet" href="/anl/css/app.css?v2300">
 <!--[if lt IE 10]>
 <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;">
     <a href="https://windows.microsoft.com/en-US/internet-explorer/">

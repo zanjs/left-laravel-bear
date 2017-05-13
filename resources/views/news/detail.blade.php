@@ -8,7 +8,7 @@
         <!-- South Pacific & Australasia-->
         <section>
             <div class="shell">
-                <div class="range range-xs-center">
+                <div class="range range-xs-center max-img">
                     <div class="cell-sm-10 cell-md-12">
                         <h5 class="text-spacing-inverse-50">{{$new->title}}</h5>
                         @if($new->image)

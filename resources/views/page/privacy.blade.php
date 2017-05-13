@@ -13,7 +13,7 @@
                     <div class="cell-lg-10">
                         <!-- Accordion-->
                         <div id="accordion" role="tablist" aria-multiselectable="true" class="bootstrap-accordion-alternative panel-group">
-                            <div class="panel">
+                            <div class="panel max-img">
                                 <div class="offset-top-20">
 
                                     {!! $page->excerpt !!}

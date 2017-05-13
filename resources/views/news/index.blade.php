@@ -12,7 +12,7 @@
                     <h5 class="text-spacing-0">{{$category->name}}</h5>
                     <div class="range range-xs-center offset-top-40">
                         @foreach($news as $new)
-                        <div class="cell-sm-6 cell-md-4">
+                        <div class="cell-sm-6 cell-md-4 max-img">
                             <!-- Post Event-->
                             <div class="post-inspiration post-inspiration-visible post-inspiration-event">
                                 <div class="post-inspiration-img-wrap">
