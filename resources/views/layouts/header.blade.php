@@ -9,7 +9,7 @@
                     <!-- RD Navbar Toggle-->
                     <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                     <!-- RD Navbar Brand-->
-                    <div class="rd-navbar-brand veil reveal-md-block">
+                    <div class="rd-navbar-brand veil reveal-md-block" style="padding-top: {{Voyager::setting('logo_top')}}px;">
                         <a href="/" class="brand-name">
                             <img style='margin-top: -10px;' width='{{Voyager::setting('logo_width')}}' height='{{Voyager::setting('logo_height')}}' src='{{asset('storage/'.Voyager::setting('logo'))}}' alt='' />
                         </a>
